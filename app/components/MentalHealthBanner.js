@@ -1,6 +1,6 @@
 
 import Img from "next/image"
-import placeimg from "@/public/images/500x500 place.png"
+import doctorimg from "@/public/images/doctor-female.jpg"
 import Andreagirlpic from "@/public/images/andrea-ai-hero.png"
 import introimg from "@/public/images/intro.png"
 import stressimg from "@/public/images/stress.png"
@@ -64,7 +64,7 @@ export default function MentalHealthBanner(){
     <div class="w-[100%] h-[35%] flex">
     <div class="flex">
             <div  class="pl-40 pb-5">
-                <Img src={placeimg} alt="placeimg"  />
+                <Img src={doctorimg} alt="doctorimg"  />
             </div>
 
             <div class="pl-44  ">

@@ -1,6 +1,6 @@
 import Img from "next/image"
 import placesmall from "@/public/images/200x200 placesmall.png"
-import placebig from "@/public/images/500x600.png"
+import callimg from "@/public/images/call-anytime.png"
 import quoteimg from "@/public/images/quote-sign-icon-quotation-mark-vector.jpg"
 import stressimg from "@/public/images/stress.png"
 import moodswingimg from "@/public/images/moodswing.png"
@@ -55,7 +55,7 @@ export default function BringPeaceBanner(){
           <div class=" w-[100%] h-[50%] pt-14 ">
 
           <div class="border-b-gray-100 border-2 w-[1350px] h-[600px] rounded-3xl ml-40 flex">
-             <div><Img src={placebig} class="rounded-3xl" alt="placebig"/></div>
+             <div><Img src={callimg} class="rounded-3xl" alt="placebig"/></div>
             
         <div class="flex-col">
              <div class="text-6xl font-bold pt-10 ml-28">"Felt a<span class="text-amber-800 ml-5 underline ">connection </span><br/> <span class="pl-56 pt-6">to my self"</span></div>   
